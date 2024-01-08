@@ -1,1 +1,1 @@
-# Nifty50_stocks
+This is a Nifty50 dashboard which shows description, quarterly results, profit-loss, share holding pattern, stock price chart, candle stick chart of Nifty 50 stocks. The data includes in dashboard is from Mar 2022 to Mar 2023. 
