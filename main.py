@@ -31,7 +31,7 @@ price = pd.read_csv('Nifty50_Price.csv')
 price_df = {name : group for name, group in price.groupby('Company_Name')}
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 app.layout = html.Div([
     html.H1("Nifty 50", style={'color': '#fff', 'text-align': 'center', 'fontSize':'50'}),
     html.P('Welcome to the Stock Dashboard! This dashboard provides information about Nifty 50 stocks. Explore the performance of Nifty50 stocks from March 2022 to March 2023.',
